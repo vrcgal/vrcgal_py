@@ -1,2 +1,2 @@
-# py_lib
-Python utilities for VRCGAL
+# vrcgal_py
+Python utilities for VRC-GAL
