@@ -6,7 +6,7 @@ from distutils.core import setup
 
 setup(
     name='vrcgal_py',
-    version='0.1.0',
+    version='0.2.0',
     packages=['vrcgal_py'],
     license='MIT',
     url='https://github.com/vrcgal/vrcgal_py',
