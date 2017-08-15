@@ -3,6 +3,7 @@
 
 import abc
 import csv
+import h5py
 
 from .data_column import DataColumn
 
@@ -59,8 +60,28 @@ class CSV(_DataFile):
                 )
 
 
+class H5(_DataFile):
+
+    def load(self, file, header_row):
+        f = h5py.File(file, 'r')
+        self._headers = []
+        self._columns = []
+        self._parse(f)
+
+    def _parse(self, data, header=''):
+        for k, v in data.items():
+            column = "{}/{}".format(header, k)
+            if not hasattr(v, 'items'):
+                self._headers.append(column)
+                self._columns.append(DataColumn(column, v[:]))
+            else:
+                self._parse(v, column)
+
+
 def load(file, header_row=0):
     if '.csv' in file:
         return CSV(file, header_row)
+    elif '.h5' in file:
+        return H5(file, header_row)
     else:
         raise ValueError('file type not supported')
