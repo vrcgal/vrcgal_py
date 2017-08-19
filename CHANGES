@@ -1,3 +1,7 @@
+V1.0.0
+Removing data parsing capabilities as Pandas is better
+Adding butterworth filter functions
+
 V0.2.0
 H5 file support
 
