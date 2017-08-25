@@ -6,11 +6,11 @@ from distutils.core import setup
 
 setup(
     name='vrcgal_py',
-    version='2.1.0',
+    version='2.1.1',
     packages=['vrcgal_py'],
     license='MIT',
     url='https://github.com/vrcgal/vrcgal_py',
     author='Ben Long',
     author_email="14benj@gmail.com",
-    long_description=open('README').read()
+    long_description=open('README.md').read()
 )
