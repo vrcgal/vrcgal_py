@@ -1,3 +1,6 @@
+V2.0.0
+Renaming filter.py to data_filter.py
+
 V1.0.0
 Removing data parsing capabilities as Pandas is better
 Adding butterworth filter functions
