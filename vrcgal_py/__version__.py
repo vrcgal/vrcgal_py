@@ -4,8 +4,8 @@
 __title__ = 'vrcgal_py'
 __description__ = 'Virtual Reality and Clinical Gait Analysis Laboratory Python Tools' # noqa E501
 __url__ = 'https://github.com/vrcgal/vrcgal_py'
-__version__ = '2.2.0'
-__build__ = 0x000007
+__version__ = '2.2.1'
+__build__ = 0x000008
 __author__ = 'Ben Long'
 __author_email__ = '14benj@gmail.com'
 __license__ = 'MIT'
