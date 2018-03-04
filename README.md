@@ -1,4 +1,3 @@
-
 Python utilities for Virtual Reality and Clinical Gait Analysis Laboratory, High Point University.
 
 
@@ -9,3 +8,5 @@ Please include these citations
 
 
 > Long, B., Gosselin, D. (2017) Python utilities for Virtual Reality and Clinical Gait Analysis. GitHub repository, https://github.com/vrcgal/vrcgal_py.
+
+    
